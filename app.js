@@ -1,10 +1,4 @@
-	const express = require('express');
-	const app = express();
-	
-	app.get('/', (req, res) => {
-	    res.send('¡Hola, Heroku!');
-	});
-	
-	app.listen(process.env.PORT || 3000, () => {
-	    console.log('Servidor corriendo');
-	});
+document.addEventListener("DOMContentLoaded", function() {
+    alert("¡El proyecto de la Actividad 2.3 ha cargado exitosamente!");
+  });
+  
